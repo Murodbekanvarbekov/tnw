@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.nav__menu{
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+    gap: 30px;
+
+}
+.menu__item a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #000000;
+}
+
+.menu__item a.red{
+    color: #EF4423;
+}
+
+.menu__item a:hover{
+    color: #EF4423;
+}
+
+.menu__item a.red:hover{
+    color: black;
+}
+
+.banner__wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.kartinka{
+    margin-top: 15px;
+    margin-bottom: 36px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.zagalovok{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+    color: white;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-top: 10px;
+}
+
+.wrap1{
+    width: 350px;
+    background-color: red;
+}
+
+.wrap__decs{
+    padding: 8px 15px 15px;
+}
+
+.wrap2{
+    width: 350px;
+    background: #6A1B9A;
+}
+
+.wrap3{
+    width: 350px;
+    background: #303F9F;
+}
+
+.wrap4{
+    width: 350px;
+    background: #00695C;
+}
+
+.center{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+}
+
+.wrap__block{
+    height: 531px;
+    width: 100;
+    display: flex;
+    justify-content: center;
+    background: #EDEDED;
+}
+
+.wrap__footer{
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+}
+
+.zagalovok__footer{
+    padding: 20px ;
+    font-size: 22px;
+    font-weight: 700;
+    color: #3A3838;
+
+}
+
+.text__footer{
+font-size: 18px;
+font-weight: 400;
+color: #686868;
+
+}
+
+.footer{
+margin-top: 30px;
+display: flex;
+background: #3A3838;
+justify-content: space-between;
+align-items: center;
+}
+
+.menu__footer a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+}
+
+.menu__footer a:hover{
+    color: #EF4423;
+}
+
+.logo{
+    margin-top: 28px;
+    margin-bottom: 29px;
+}
